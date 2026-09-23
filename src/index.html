@@ -16,23 +16,8 @@
       type="font/woff2" 
       crossorigin>
 
-      <style>
-        @font-face {
-            font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            src: url('../assets/polices/inter-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-        }
-        /* inter-700 - latin */
-        @font-face {
-            font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            src: url('../assets/polices/inter-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-        }
-      </style>
+    <!-- Link des fichiers -->
+    <link rel="stylesheet" href="./css/index.css">
 
 </head>
 
@@ -45,13 +30,19 @@
             <div class="navlinks">
                 <ul>
                     <li>
-                        <p>Accueil</p>
+                        <a href="#">
+                            <p>Accueil</p>
+                        </a>
                     </li>
                     <li>
-                        <p>À propos</p>
+                        <a href="#">
+                            <p>À propos</p>
+                        </a>
                     </li>
                     <li>
-                        <p>Contact</p>
+                        <a href="#">
+                            <p>Contact</p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -102,10 +93,12 @@
             <article class="fiche-atelier">
                 <h3>Développement d'app mobile</h3>
                 <p>Dans cet ateliers vous apprennez à développer des app mobile pour pouvoir les commercialiser</p>
+                <button type="button" class="btn-ateliers">En savoirs plus</button>
             </article>
             <article class="fiche-atelier">
                 <h3>Développement de site web</h3>
                 <p>Dans cette atelier vous apprennez.à créer des site web performant</p>
+                <button type="button" class="btn-ateliers">En savoirs plus</button>
             </article>
 
         </section>
