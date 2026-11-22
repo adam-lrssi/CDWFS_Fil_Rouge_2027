@@ -1,0 +1,20 @@
+Voici les métriques qui correspondent au TP 2 : 
+
+LCP : 3,2 secondes
+CLS : 0
+TBT : 1520 ms
+
+
+------------------------------------------------
+
+320px : 
+- Bar de navigation désordonnée : 
+	- grand espace blanc à a droite de la navigation 
+	- Le link à propos est sur deux lignes 
+- Hero section trop grande : 
+	- L'image de la section hero est trop grande par rapport au reste de la page, cela créer un grands espace blanc a droite de toutes les autre sections
+
+
+720px : 
+- Valeurs : 
+	- un gros espace blanc à droite des valeurs
